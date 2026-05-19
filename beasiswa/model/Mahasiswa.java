@@ -5,7 +5,7 @@
 package beasiswa.model;
 
 
-public class Mahasiswa {
+public abstract class Mahasiswa {
     private String nama;
     private String jalur;
     private int nilai_ipk;
