@@ -8,11 +8,14 @@ package beasiswa;
 //123240118
 // IF-D
 
+import beasiswa.view.BeasiswaView;
+import javax.swing.SwingUtilities;
 public class Main {
-
-   
     public static void main(String[] args) {
-        // TODO code application logic here
+        SwingUtilities.invokeLater(()->{
+            new BeasiswaView().setVisible(true);
+        });
     }
+    
     
 }
