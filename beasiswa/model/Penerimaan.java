@@ -9,7 +9,7 @@ public class Penerimaan extends Mahasiswa {
     private int id;
     private float nilai_akhir;
     private String status;
-    private static final float BATAS_MINIMUM = 82.5;
+    private static final double BATAS_MINIMUM = 82.5;
     
     public Penerimaan(int id, String nama, String jalur, int nilai_ipk, int nilai_portofolio, int nilai_wawancara){
         super(nama, jalur, nilai_ipk, nilai_portofolio, nilai_wawancara);
