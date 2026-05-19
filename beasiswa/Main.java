@@ -4,15 +4,13 @@
  */
 package beasiswa;
 
-/**
- *
- * @author Lab Informatika
- */
+// ANDINI PAPA SULIMA 
+//123240118
+// IF-D
+
 public class Main {
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
         // TODO code application logic here
     }
